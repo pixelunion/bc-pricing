@@ -2,6 +2,6 @@
   "name": "bc-pricing",
   "version": "0.0.1",
   "scripts": {
-    "install":  "./install.sh"
+    "test-install":  "./install.sh"
   }
 }
