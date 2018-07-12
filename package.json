@@ -2,6 +2,6 @@
   "name": "bc-pricing",
   "version": "0.0.1",
   "scripts": {
-    "install":  "chmod +x install.sh && ./install.sh"
+    "install":  "./install.sh"
   }
 }
