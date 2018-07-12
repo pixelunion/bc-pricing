@@ -1,5 +1,5 @@
 {
-  "name": "pixelunion/bc-pricing",
+  "name": "bc-pricing",
   "scripts": {
     "install":  "./install.sh"
   }
