@@ -1,5 +1,5 @@
 {
-  "name": "bc-pricing",
+  "name": "@pixelunion/bc-pricing",
   "version": "0.0.1",
   "scripts": {
     "install": "node ./install.js"
