@@ -2,6 +2,7 @@
   "name": "bc-pricing",
   "version": "0.0.1",
   "scripts": {
-    "install":  "node ./install.js"
-  }
+    "install": "node ./install.js"
+  },
+  "dependencies": {}
 }
