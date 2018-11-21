@@ -1,8 +1,9 @@
 const fs = require('fs');
 
-console.log('something cool');
+const themeFolder = '../../';
 
-fs.copyFile('test.txt', '../../destination.txt', (err) => {
+console.log('process');
+fs.copyFile('test.txt', themeFolder + 'destination.txt', (err) => {
   if (err) throw err;
   console.log('test.txt was copied to destination.txt');
 });
