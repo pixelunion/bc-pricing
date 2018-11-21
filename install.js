@@ -6,7 +6,7 @@ var ncp = require('ncp').ncp;
 const themePath = '../../../';
 const modulePath = process.cwd();
 
-ncp(path.resolve(themePath, 'templates'), path.resolve(modulePath, 'templates'), function(err) {
+ncp(path.resolve(themePath, 'templates'), modulePath, function(err) {
   if (err) {
     return console.error(err);
   }
