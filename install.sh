@@ -6,5 +6,5 @@ echo 'Installing'
 #   rsync -v -h -r -i --delete "$2" "$3"
 # }
 
-# sync "Templates" "$DIR/templates/core" "../../../templates/"
+sync "Templates" "$DIR/templates/pricing" "../../../templates/"
 echo $DIR
