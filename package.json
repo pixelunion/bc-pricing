@@ -4,5 +4,7 @@
   "scripts": {
     "install": "node ./install.js"
   },
-  "dependencies": {}
+  "dependencies": {
+    "ncp": "^2.0.0"
+  }
 }
