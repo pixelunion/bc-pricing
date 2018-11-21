@@ -7,5 +7,4 @@ echo 'Installing'
 # }
 
 sync "Templates" "$DIR/templates/pricing" "../../../templates/"
-echo $DIR
-echo $(dirname $(dirname "$0"))
+echo dirname $3
